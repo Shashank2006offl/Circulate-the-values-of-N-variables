@@ -21,12 +21,14 @@ Stop the program
 ## Program:
 #Program to circulate N values.
 #Developed by: Shashank R
+```
 #RegisterNumber:23013949
 def circulate():
     list1=eval(input())
     n=int(input())
     result=list1[n:]+list1[:n]
     print("After circulating the values are:",result)
+```
 ## Output:
 ![Alt text](cnv-1.png)
 ## Result:
